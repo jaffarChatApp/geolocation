@@ -5,6 +5,8 @@
 				<md-card-content layout="row" layout-align="space-between">
 					<div class="loginFormArea">
 						<h2>Login Here</h2>
+						<div>City: <b data-ng-bind="myCoordinates.city"></b></div>
+						<div>Country: <b data-ng-bind="myCoordinates.country_name"></b></div>
 						<form name="loginForm" data-ng-submit="loginSubmit($event)">
 							<div class="inputArea">
 								<md-input-container class="md-block">

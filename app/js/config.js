@@ -10,31 +10,31 @@ NgOfflineApp.constant('APP_MEDIAQUERY', {
 });
 NgOfflineApp.constant('JS_REQUIRES', {
 	scripts: {
-		'AppCtrl': 'app/js/controllers/appCtrl.js?v=1.0-Nov-12',
-		'LoginCtrl': 'app/js/controllers/loginCtrl.js?v=1.0-Nov-12',
-		'DashboardCtrl': 'app/js/controllers/dashboardCtrl.js?v=1.0-Nov-12'
+		'AppCtrl': 'app/js/controllers/appCtrl.js?v=1.0-Dec-06',
+		'LoginCtrl': 'app/js/controllers/loginCtrl.js?v=1.0-Dec-06',
+		'DashboardCtrl': 'app/js/controllers/dashboardCtrl.js?v=1.0-Dec-06'
 	},
 	modules: [{
 			name: 'LoginCss',
-			files: ['app/css/login.css?v=1.0-Nov-12']
+			files: ['app/css/login.css?v=1.0-Dec-06']
         }, {
 			name: 'DashboardCss',
-			files: ['app/css/dashboard.css?v=1.0-Nov-12']
+			files: ['app/css/dashboard.css?v=1.0-Dec-06']
         }, {
 			name: 'HelperCss',
-			files: ['app/css/helper.css?v=1.0-Nov-12']
+			files: ['app/css/helper.css?v=1.0-Dec-06']
         }, {
 			name: 'FontAwesome',
-			files: ['app/css/font-awesome.min.css?v=1.0-Nov-12']
+			files: ['app/css/font-awesome.min.css?v=1.0-Dec-06']
         }, {
 			name: 'MaterialCss',
-			files: ['app/css/angular-material.min.css?v=1.0-Nov-12']
+			files: ['app/css/angular-material.min.css?v=1.0-Dec-06']
         }, {
 			name: 'NgSanitizeJs',
-			files: ['app/plugins/angular-1.6.6/angular-sanitize.min.js?v=1.0-Nov-12']
+			files: ['app/plugins/angular-1.6.6/angular-sanitize.min.js?v=1.0-Dec-06']
         }, {
 			name: 'NgStorageJs',
-			files: ['app/plugins/angular-1.6.6/ngStorage.js?v=1.0-Nov-12']
+			files: ['app/plugins/angular-1.6.6/ngStorage.js?v=1.0-Dec-06']
         }
     ]
 });
