@@ -23,7 +23,7 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 	$scope.getLocation = function () {
 		var latitude = 50.507351;
 		var longitude = -0.127758;
-		$http.get('http://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&sensor=true&key=AIzaSyAlzT6cuvbpmnk9LMoQILq0eNhp3k17gxQ').then(function (response) {
+		$http.get('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&sensor=true&key=AIzaSyAlzT6cuvbpmnk9LMoQILq0eNhp3k17gxQ').then(function (response) {
 			console.log("response", response);
 		})
 	}
