@@ -1,0 +1,110 @@
+[
+	{
+		"User_id": 3,
+		"username": "fara",
+		"name": "Farah",
+		"last_name": "Khan",
+		"gender": "Female",
+		"email": "jaffar@gmail.com",
+		"mobile": "",
+		"img_path": "http://192.168.1.86/ProfileImg/Farah20180602142144636.jpg",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 4,
+		"username": "raj",
+		"name": "Rajeshree",
+		"last_name": "Keni",
+		"gender": "Male",
+		"email": "rajeshree@gmail.com",
+		"mobile": "",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 5,
+		"username": "anam",
+		"name": "Anamika",
+		"last_name": "Sayyed",
+		"gender": "Female",
+		"email": "anamika@gmail.com",
+		"mobile": "9877878787",
+		"img_path": "http://192.168.1.86/ProfileImg/Anamika20180604095926615.jpeg",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 8,
+		"username": "Prachi",
+		"name": "Prachi",
+		"last_name": "kurlikar",
+		"gender": "Female",
+		"email": "prachi@gmail.com",
+		"mobile": "8766664623",
+		"img_path": "http://192.168.1.86/ProfileImg/undefined20180604144009537.jpg",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 11,
+		"username": "zoya",
+		"name": "Zoya",
+		"last_name": "Khan",
+		"gender": "Female",
+		"email": "mahek@gmail.com",
+		"mobile": "9985201475",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 12,
+		"username": "Ananta",
+		"name": "Ananta",
+		"last_name": "",
+		"gender": "Male",
+		"email": "",
+		"mobile": "",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 14,
+		"username": "Roma",
+		"name": "Roma",
+		"last_name": "thaiyar",
+		"gender": "Female",
+		"email": "Roma@gmail.com",
+		"mobile": "9653221455",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 17,
+		"username": "Bashir",
+		"name": "Bashir",
+		"last_name": "shaikh",
+		"gender": "Male",
+		"email": "bashir@ilmux.com",
+		"mobile": "9594767073",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  },
+	{
+		"User_id": 18,
+		"username": "anushree",
+		"name": "anushree",
+		"last_name": "anushree",
+		"gender": "female",
+		"email": "admin@gmail.com",
+		"mobile": "9594942250",
+		"img_path": "",
+		"default_role": "RECEPTIONIST",
+		"role": "RECEPTIONIST"
+  }
+]

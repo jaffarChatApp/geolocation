@@ -1,0 +1,54 @@
+<div class="headerPanel">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <div layout="column" flex-xs="100" flex-sm="100" flex="90" layout-align="center">
+                <md-button class="md-icon-button" aria-label="Side Panel" ng-click="toggleList()">
+                    <md-tooltip>Side Panel</md-tooltip>
+                    <md-icon class="md-default-theme" class="material-icons">&#xE5D2;</md-icon>
+                </md-button>
+            </div>
+            <!--<div class="rightMenuArea" layout="column" flex-xs="100" flex-sm="100" flex="10" layout-align="right">
+                <md-menu md-position-mode="target-right target">
+                    <md-button aria-label="Open demo menu" class="md-raised" ng-click="openMenu($event)">
+                        Login
+                    </md-button>
+                    <md-menu-content width="4">
+                        <md-menu-item ng-repeat="item in [1, 2, 3]">
+                            <md-button>
+                                <div layout="row" flex="">
+                                    <p flex="">Option </p>
+                                </div>
+                            </md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </div>-->
+        </div>
+
+    </md-toolbar>
+</div>
+<md-sidenav class="md-whiteframe-4dp miniMenuBar" md-component-id="left" aria-hidden="true">
+    <div class="nav-header tac">
+        <img src="app/img/ilmux.png" width="100px">
+        <div ng-href="/" class="docs-logo" href="/">
+            <h1 class="docs-logotype md-heading">A Human Experience</h1>
+        </div>
+    </div>
+
+    <div class="navMenuClass">
+        <md-content>
+            <div class="md-accordion" ng-click="toggleList()">
+                <md-toolbar data-ng-click="dashboard('dashboard')" data-ng-class="{'navParentActive' : selected=='dashboard'}">
+                    <div class="md-toolbar-tools">
+                        <div>
+                            <i class="material-icons">dashboard</i> <span class="navMenu">Dashboard</span>
+                        </div>
+                    </div>
+                </md-toolbar>
+            </div>
+        </md-content>
+    </div>
+</md-sidenav>
+<md-content flex id="content">
+    <div ui-view></div>
+</md-content>
