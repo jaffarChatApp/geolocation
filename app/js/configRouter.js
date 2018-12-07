@@ -15,19 +15,19 @@ NgOfflineApp.config(["$stateProvider", "$urlRouterProvider", "$httpProvider", "$
 	$urlRouterProvider.otherwise("/login");
 	$stateProvider.state('login', {
 		url: '/login',
-		templateUrl: 'app/templates/login.html?v=1.0-Dec-06',
+		templateUrl: 'app/templates/login.html?v=1.2-Dec-07',
 		resolve: loadSequence('LoginCss', 'HelperCss', 'FontAwesome', 'MaterialCss', 'NgStorageJs', 'AppCtrl', 'LoginCtrl'),
 		controller: 'loginCtrl',
 		title: 'Login'
 	}).state('home', {
 		url: '/home',
-		templateUrl: 'app/templates/sidePanel.html',
+		templateUrl: 'app/templates/sidePanel.html?v=1.2-Dec-07',
 		resolve: loadSequence('HelperCss', 'FontAwesome', 'MaterialCss', 'NgStorageJs', 'AppCtrl'),
 		controller: 'appCtrl',
 		title: 'Home-Angular-JS-Boiler-Plate'
 	}).state('dashboard', {
 		url: '/dashboard',
-		templateUrl: 'app/templates/dashboard.html?v=1.0-Dec-06',
+		templateUrl: 'app/templates/dashboard.html?v=1.2-Dec-07',
 		resolve: loadSequence('DashboardCss', 'HelperCss', 'FontAwesome', 'MaterialCss', 'NgStorageJs', 'AppCtrl', 'DashboardCtrl'),
 		controller: 'dashboardCtrl',
 		title: 'Dashboard'
