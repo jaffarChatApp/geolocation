@@ -8,7 +8,8 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 		}
 		$http({
 			method: 'POST',
-			url: 'https://cjgk5elnr5.execute-api.ap-south-1.amazonaws.com/login',
+			url: 'https://6896rz1of0.execute-api.ap-south-1.amazonaws.com/onemeeting/login',
+			//url: 'https://cjgk5elnr5.execute-api.ap-south-1.amazonaws.com/login',
 			headers: {
 				'Content-Type': 'application/json'
 			},
