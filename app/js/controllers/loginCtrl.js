@@ -1,5 +1,5 @@
 NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state', '$timeout', '$sessionStorage', 'CONFIG', function ($scope, $rootScope, $http, $state, $timeout, $sessionStorage, CONFIG) {
-	console.log("Test4");
+	console.log("Test5");
 	$scope.loginSubmit = function () {
 
 		//$scope.getLoader(true);
@@ -19,7 +19,8 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 				'Access-Control-Allow-Credentials': true,
 				'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, DELETE',
 				'Access-Control-Max-Age': '3600',
-				'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Requested-With, remember-me',
+				'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+				//'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Requested-With, remember-me',
 				'Accept': 'application/json'
 			},
 			data: sendData
