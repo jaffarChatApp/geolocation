@@ -12,7 +12,10 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 			url: 'https://6896rz1of0.execute-api.ap-south-1.amazonaws.com/onemeeting/login',
 			//url: 'https://cjgk5elnr5.execute-api.ap-south-1.amazonaws.com/login',
 			headers: {
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				'Access-Control-Allow-Headers': 'content-type',
+				'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, PUT, DELETE',
+				'Access-Control-Allow-Origin': '*'
 			},
 			data: sendData
 
