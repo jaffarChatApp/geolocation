@@ -3,6 +3,7 @@ NgOfflineApp.config(["$stateProvider", "$urlRouterProvider", "$httpProvider", "$
 	//$httpProvider.defaults.useXDomain = true;
 	//$httpProvider.defaults.withCredentials = true;
 	//delete $httpProvider.defaults.headers.common['X-Requested-With'];
+	$httpProvider.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 
 	$mdThemingProvider.theme('dark-grey').backgroundPalette('grey').dark();
 	$mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
