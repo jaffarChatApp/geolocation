@@ -1,5 +1,9 @@
 NgOfflineApp.config(["$stateProvider", "$urlRouterProvider", "$httpProvider", "$locationProvider", "JS_REQUIRES", "$ocLazyLoadProvider", "$controllerProvider", "$mdThemingProvider", function ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider, jsRequires, $ocLazyLoadProvider, $controllerProvider, $mdThemingProvider) {
 
+	$httpProvider.defaults.useXDomain = true;
+	$httpProvider.defaults.withCredentials = true;
+	delete $httpProvider.defaults.headers.common['X-Requested-With'];
+
 	$mdThemingProvider.theme('dark-grey').backgroundPalette('grey').dark();
 	$mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
 	$mdThemingProvider.theme('dark-purple').backgroundPalette('deep-purple').dark();
