@@ -1,5 +1,5 @@
 NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state', '$timeout', '$sessionStorage', 'CONFIG', function ($scope, $rootScope, $http, $state, $timeout, $sessionStorage, CONFIG) {
-	console.log("Test1");
+	console.log("Test2");
 	$scope.loginSubmit = function () {
 
 		//$scope.getLoader(true);
@@ -14,9 +14,8 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 			headers: {
 				'Content-Type': 'application/json'
 			},
-			data: {
-				data: sendData
-			}
+			data: sendData
+
 		}).then(function (response) {
 			console.log("response", response);
 			//$scope.getLoader(false);
