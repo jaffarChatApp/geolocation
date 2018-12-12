@@ -15,13 +15,13 @@ NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state',
 				'Content-Type': 'application/json',
 				//'Access-Control-Allow-Headers': 'content-type',
 				//'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, PUT, DELETE',
-				'Access-Control-Allow-Origin': '*',
-				'Access-Control-Allow-Credentials': true,
-				'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, DELETE',
-				'Access-Control-Max-Age': '3600',
-				'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+				//'Access-Control-Allow-Origin': '*',
+				//'Access-Control-Allow-Credentials': true,
+				//'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, DELETE',
+				//'Access-Control-Max-Age': '3600',
+				//'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
 				//'Access-Control-Allow-Headers': 'Content-Type, Accept, X-Requested-With, remember-me',
-				'Accept': 'application/json'
+				//'Accept': 'application/json'
 			},
 			data: sendData
 
