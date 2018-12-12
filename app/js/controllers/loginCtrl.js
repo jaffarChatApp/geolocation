@@ -1,4 +1,5 @@
 NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state', '$timeout', '$sessionStorage', 'CONFIG', function ($scope, $rootScope, $http, $state, $timeout, $sessionStorage, CONFIG) {
+	console.log("Test1");
 	$scope.loginSubmit = function () {
 
 		//$scope.getLoader(true);
