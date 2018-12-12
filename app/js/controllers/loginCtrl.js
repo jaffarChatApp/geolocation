@@ -1,6 +1,27 @@
 NgOfflineApp.controller('loginCtrl', ['$scope', '$rootScope', '$http', '$state', '$timeout', '$sessionStorage', 'CONFIG', function ($scope, $rootScope, $http, $state, $timeout, $sessionStorage, CONFIG) {
 	$scope.loginSubmit = function () {
-		$state.go('dashboard');
+
+		//$scope.getLoader(true);
+		var sendData = {
+			"username": "TFOadmin",
+			"password": "Tfo@Ompa$$101"
+		}
+		$http({
+			method: 'POST',
+			url: 'https://cjgk5elnr5.execute-api.ap-south-1.amazonaws.com/login',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			data: {
+				data: sendData
+			}
+		}).then(function (response) {
+			console.log("response", response);
+			//$scope.getLoader(false);
+			//$state.go("home");
+		})
+
+		//$state.go('dashboard');
 	}
 
 	$scope.getAddress = function () {
